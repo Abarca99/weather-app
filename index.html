@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles.css">
+    <script src="index.js" defer></script>
+</head>
+<body>
+    <form>
+        <div>
+            <label for="location">What is your location?</label>
+            <input type="text" id="location" name="location">
+        </div>
+        <div>
+            <label for="fahrenheit">Fahrenheit</label>
+            <input type="radio" id="fahrenheit" name="temperature" value="temp_f">
+        
+            <label for="celsuis">Celsius</label>
+            <input type="radio" id="celsuis" name="temperature" value="temp_c">
+        </div>
+        <div class="pseudo-button">
+            <div class="submit">SUBMIT</div>
+        </div>
+    </form>
+
+    <div class="weatherCard">
+        <div class="weatherInfo"></div>
+    </div>
+
+</body>
+</html>
